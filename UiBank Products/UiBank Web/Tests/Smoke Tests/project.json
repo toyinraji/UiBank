@@ -1,13 +1,14 @@
 {
-  "name": "CI/CD Integration",
+  "name": "CICD Toyin Raji",
   "description": "A demo project to show our CI/CD integration capabilities.",
   "main": "Create Account.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "[20.3.0-beta.798912]",
-    "UiPath.Testing.Activities": "[1.0.0-beta.837692]",
-    "UiPath.UIAutomation.Activities": "[20.2.0-preview]"
+    "UiPath.System.Activities": "[21.4.1]",
+    "UiPath.Testing.Activities": "[1.3.3]",
+    "UiPath.UIAutomation.Activities": "[21.4.4]"
   },
   "webServices": [],
+  "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.3.0.187",
   "projectVersion": "6.2.5",
@@ -20,7 +21,9 @@
       "Private:*",
       "*password*"
     ],
-    "executionType": "Workflow"
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -28,6 +31,9 @@
     "libraryOptions": {
       "includeOriginalXaml": false,
       "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
     },
     "fileInfoCollection": [
       {
@@ -75,11 +81,15 @@
         "testCaseId": "12cc2ca4-cb54-4a1d-a67e-49d3c61d188f",
         "fileName": "Delete Account.xaml"
       }
-    ]
+    ],
+    "modernBehavior": false
   },
   "arguments": {
     "input": [],
     "output": []
   },
-  "expressionLanguage": "VisualBasic"
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
 }
