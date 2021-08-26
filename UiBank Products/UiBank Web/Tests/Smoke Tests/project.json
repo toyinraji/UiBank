@@ -1,0 +1,85 @@
+{
+  "name": "CI/CD Integration",
+  "description": "A demo project to show our CI/CD integration capabilities.",
+  "main": "Create Account.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[20.3.0-beta.798912]",
+    "UiPath.Testing.Activities": "[1.0.0-beta.837692]",
+    "UiPath.UIAutomation.Activities": "[20.2.0-preview]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.3.0.187",
+  "projectVersion": "6.2.5",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "830a64d2-ae68-40fd-8b2f-34e5ab45ae26",
+        "fileName": "Create Account.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a70fcc2f-f3bf-43b6-b6f1-cbabaef634f7",
+        "fileName": "Create User.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "860e9b77-9ba6-452e-81e9-8688a7ca008a",
+        "fileName": "Modify User Profile.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "98e43e63-b9a7-4378-a041-594f62cf26c2",
+        "fileName": "Perform Transaction.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "38b4cdb8-ca0b-40c9-86ec-c1adda36bf7e",
+        "fileName": "Transfer Funds.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "76cd7eaa-4617-4a58-8408-4a54734007ea",
+        "fileName": "Reset Password.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "89a87527-bfc5-41e2-a39f-ec30a9cfeb8a",
+        "fileName": "Create Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fce756c5-fe90-42f1-938f-550ef371d517",
+        "fileName": "Register Administrator.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "12cc2ca4-cb54-4a1d-a67e-49d3c61d188f",
+        "fileName": "Delete Account.xaml"
+      }
+    ]
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
